@@ -1,0 +1,171 @@
+body {
+    background-color: #e5e5e5;
+}
+
+/** container hissəsi */
+.container {
+    width: 980px;
+    background-color: #f9f9f9;
+    margin: 40px auto;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+/** header hissəsi */
+header {
+    padding: 20px;
+}
+
+.container header h1 {
+    font-size: 35px;
+    margin: 0px;
+    color: #3f3f3f;
+}
+
+.container header p {
+    font-size: 22px;
+    color: #3f3f3f;
+    background-color: #ffee9f;
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #ffa600;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+
+/** nav hissəsi */
+nav {
+    height: 50px;
+    background-color: #f1f1f1;
+    padding: 0px 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    width: 120px;
+    height: 50px;
+    line-height: 55px;
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav .axtar {
+    height: 50px;
+    line-height: 50px;
+    float: right;
+}
+
+nav .axtar input {
+    width: 200px;
+}
+
+
+/** article hissəsi */
+article {
+    padding: 20px;
+}
+
+
+/** məlumatlar hissəsi */
+article .məlumatlar {
+    width: 650px;
+    float: left;
+}
+
+article .məlumatlar p:nth-child(1) {
+    font-size: 24px;
+}
+
+article .məlumatlar p:nth-child(2) {
+    font-size: 18px;
+    line-height: 125%;
+    text-align: justify;
+}
+
+.village-img {
+    width: 650px;
+    height: 300px;
+}
+
+.ship-img {
+    width: 310px;
+    height: 300px;
+    margin-right: 25px;
+}
+
+.tiger-img {
+    width: 310px;
+    height: 300px;
+}
+
+
+/** linklər hissəsi */
+article .linklər {
+    width: 270px;
+    float: left;
+    margin: 30px 0px 0px 20px;
+}
+
+article .linklər .başlığ {
+    background-color: #5f5f5f;
+    color: white;
+    padding: 15px;
+    font-size: 22px;
+}
+
+.linklər .link {
+    margin-top: 10px;
+    padding-bottom: 50px;
+}
+
+.linklər .link a {
+    display:inline-block;
+    text-decoration: none;
+    border-bottom: 1px dotted black;
+    line-height: 175%;
+}
+
+
+/** (float'ı təmizləmək üçün) təmizlə hissəsi */
+.təmizlə {
+    clear: both;
+}
+
+
+/** footer hissəsi */
+footer {
+    height: 80px;
+    line-height: 80px;
+    background-color: #5f5f5f;
+    color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 0px 20px;
+}
+
+footer span {
+    font-size: 16px;
+}
+
+footer span:nth-child(2) {
+    float: right;
+}
